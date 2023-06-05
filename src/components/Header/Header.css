@@ -1,0 +1,58 @@
+header {
+  display: grid;
+  grid-template-columns: 65px 1fr 65px;
+  grid-template-rows: 60px;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 5px solid #404040;
+  text-align: center;
+  position: fixed;
+  top: 0;
+  width: 100vw;
+  background-color: #262626;
+  z-index: 1;
+}
+
+.home-button:hover,
+.profile-pic:hover {
+  cursor: pointer;
+}
+
+.home-button,
+.page-name {
+  color: #4E9AF5;
+  font-size: 30px;
+}
+
+.profile-pic {
+  display: block;
+  margin: auto;
+  height: 40px;
+  border-radius: 100%;
+}
+
+.menu-wrapper {
+  position: relative;
+}
+
+.menu {
+  position: absolute;
+  right: 0;
+  top: 0;
+  padding-top: 50px;
+  width: 82px;
+}
+
+.log-out {
+  padding: 10px;
+  background-color: #999999;
+  color: #404040;
+  text-decoration: underline;
+}
+
+.log-out:hover,
+.log-out:after {
+  background-color: #BBBBBB;
+  color: #626262;
+  cursor: pointer;
+}
