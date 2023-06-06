@@ -1,7 +1,14 @@
-// const Header = () => {
-//   return (
-//     <div>
+import { useState } from "react";
 
-//     </div>
-//   )
-// };
+const Header = () => {
+  const [ menuOpen, setMenuOpen ] = useState(false);
+  const [ errorState, setErrorState ] = useState('');
+
+  return (
+    <div>
+      Header TBD
+    </div>
+  )
+};
+
+export default Header;

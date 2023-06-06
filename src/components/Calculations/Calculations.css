@@ -1,0 +1,151 @@
+.Calculations article {
+  padding: 20px;
+  background-color: #999999;
+}
+
+.Calculations .manual-tab,
+.Calculations .estimate-tab,
+.Calculations .minute-mile-button,
+.Calculations .mile-hour-button {
+  padding: 10px 0;
+  width: 50%;
+  border: none;
+}
+
+.Calculations .manual-tab,
+.Calculations .estimate-tab {
+  font-size: 25px;
+  background-color: #404040;
+  color: #999999;
+}
+
+.Calculations .minute-mile-button,
+.Calculations .mile-hour-button {
+  border: 1px solid #262626;
+  font-size: 20px;
+  color: #262626;
+  background-color: #999999;
+}
+
+.mile-minute-box,
+.mile-hour-box {
+  text-align: center;
+}
+
+.Calculations button.focused {
+  background-color: #999999;
+  color: #262626;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.estimate input,
+.manual-input {
+  text-align: center;
+  display: inline-block;
+  width: 65px;
+  font-size: 30px;
+  margin: 10px;
+  border: 1px solid #262626;
+  border-radius: 5px;
+}
+
+.estimate input::placeholder,
+.manual-input::placeholder {
+  color: #bbbbbb;
+}
+
+.manual-input-form {
+  width: fit-content;
+  margin: auto;
+}
+
+.mile-hour-box input {
+  width: 80px;
+}
+
+.instructions {
+  text-align: center;
+  font-size: 20px;
+}
+
+.height {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: fit-content;
+  text-align: center;
+  margin: 10px auto;
+}
+
+.height h4 {
+  font-size: 18px;
+}
+
+.colon {
+  color: #262626;
+  display: inline
+}
+
+.disclaimer {
+  font-size: 16px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.input-headers {
+  text-align: center;
+}
+
+.speed-header {
+  text-align: center;
+  width: fit-content;
+  margin: auto;
+}
+
+.speed-header h3 {
+  margin-bottom: 10px;
+}
+
+.speed-units {
+  border: 1px solid #262626;
+  background-color: #bbbbbb;
+}
+
+/* MANUAL CALCULATION */
+
+article.manual {
+  padding: 10px;
+}
+
+ol {
+  margin: 0;
+  padding-left: 20px;
+}
+
+ol li {
+  font-size: 18px;
+  padding: 5px;
+  border: none;
+}
+
+ol li:hover {
+  color: #262626;
+  background-color: #999999;
+  border: none;
+  cursor: auto;
+}
+
+article.result.show {
+  margin: 10px auto;
+  display: flex;
+  justify-content: space-around;
+  color: #999999;
+}
+
+.result h1 {
+  color: #4E9AF5;
+}

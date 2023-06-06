@@ -21,7 +21,8 @@ main {
   margin-top: 80px;
 }
 
-.App {
+.App,
+#error-page {
   max-width: 700px;
   margin: auto;
 }

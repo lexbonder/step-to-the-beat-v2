@@ -1,9 +1,10 @@
 import { Outlet } from 'react-router-dom';
+import Header from '../Header/Header';
 import './App.css';
 
 const App = () => (
   <div className="App">
-    <h1>I WILL ALWAYS BE HERE!</h1>
+    <Header />
     <Outlet />
   </div>
 );
